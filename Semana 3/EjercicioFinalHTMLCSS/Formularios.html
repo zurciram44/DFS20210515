@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Formulario.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <form action="Respuesta.html" method="GET">
+        <div class="segmento">
+            <h1>Contáctanos</h1>
+        </div>
+        <label for="">
+            <input type="text" placeholder="Nombre" name="Nombre">
+        </label>
+        <label for="">
+            <input type="text" placeholder="Correo" name="mail">
+        </label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button class="blue" type="button">
+            Enviar
+        </button>
+        <div class="segmento">
+
+        </div>
+    </form>
+    <script>
+        document.write('Hola');
+        console.log('prueba');
+
+        $(document).ready(function() {
+            console.log(nombre);
+            var nombre;
+            console.log(nombre);
+            $('#enviar').click(function() {
+                nombre = $('#name').val();
+                alert(nombre);
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

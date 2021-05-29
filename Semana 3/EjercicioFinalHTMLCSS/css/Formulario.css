@@ -1,0 +1,89 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+    background-color: rgb(147, 148, 152);
+}
+
+input, select, textarea, button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+div {
+color: #BABECC;
+text-shadow: 1px 1px 1px #FFF;
+}
+
+form{
+    padding: 16px;
+    width: 16px * 20;
+    text-align: center;
+}
+
+.segmento{
+    padding: 16px * 20;
+    text-align: center;
+
+}
+button, input{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 16px * 20;
+    padding: 16px;
+    background-color: rgb(147, 148, 152);
+    text-shadow: 1px 1px 0 #FFF;
+}
+
+label{
+    display: block;
+    margin-bottom: 16px * 1.5;
+    width: 100%;
+}
+
+input, textarea{
+    margin-right: 16px/2;
+
+    box-shadow: inset 2px 2px 5px  rgb(147, 148, 152), inset -5px -5px 10px #FFF
+    ;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+
+    
+    
+}
+
+input:focus{
+    box-shadow: inset 1px 1px 2px rgb(147, 148, 152) , inset -1px -1px 2px #FFF;
+}
+
+textarea:focus{
+    box-shadow: inset 1px 1px 2px rgb(147, 148, 152) , inset -1px -1px 2px #FFF;
+}
+
+button{
+    color: #45464b;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF , 5px 5px 20px  rgb(147, 148, 152) ;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+button:hover{
+    box-shadow: -2px -2px 5px #FFF , 2px 2px 5px  rgb(147, 148, 152) ;
+}
+
+button:active{
+    margin-right: 8px;
+}
+
+
+
+

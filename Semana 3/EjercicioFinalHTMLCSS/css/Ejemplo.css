@@ -1,0 +1,80 @@
+
+
+
+body{
+    
+    padding: 0;
+    margin: 0;
+    background-color: rgb(147, 148, 152);
+}
+ input, select, textarea, button{
+    font-family: sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+ 
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: gray;
+}
+
+#contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#centrado{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: snow;
+    font-size: 4.5em;
+}
+
+.nombre{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#nosotros-img{
+    width: 50%;
+    float: left;
+}
+
+#nstimg{
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    
+    border-radius: 4px;
+}
+/* Formularios*/
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea</title>
+</head>
+
+<body>
+    <script>
+        var option = prompt('¿Qué quieres hacer? \n 1) Ingresar calificación \n 2) Salir');
+
+
+        do {
+            option = parseInt(option);
+
+            //alert(option);
+
+            switch (option) {
+                case 1:
+                    var calf = prompt('Ingresa tu calificación');
+                    cal(calf);
+                    break;
+            }
+
+            function cal(calf) {
+                if (calf < 6) {
+                    alert("Reprobado");
+
+                } else {
+                    if (calf >= 6 && calf <= 9) {
+                        alert("Aprobado");
+
+                    } else {
+                        if (calf > 9) {
+                            alert("Beca");
+                        }
+                    }
+                }
+            }
+        }
+        while (option != 2);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var nombre;
+        let edad;
+
+        //nombre = prompt('Ingresa tu nombre: ', '');
+        //document.write('Hola ', nombre);
+
+        // var num1, num2, suma;
+
+        // num1 = prompt('Ingresa el primer numero');
+        // num2 = prompt('Ingresa el primer numero');
+
+        // suma = (parseInt(num1) + parseInt(num2));
+
+        // alert('El resultado de la suma es : ' + suma)
+
+        var fecha = new Date();
+        document.write('La fecha de hoy es ', fecha);
+
+        document.write('<br> Hoy es el día : ', fecha.getDay());
+        document.write('<br> Es la hora : ', fecha.getHours());
+
+        var calificacion = parseInt(prompt('Ingresa tu calificación del curso'));
+
+        //IF
+
+        //Funciona para determinar si una condición se cumple o no.
+
+        if (calificacion >= 6) {
+            document.write('<br> El alumno esta aprobado');
+        } else {
+            document.write('<br> El alumno esta reprobado');
+        }
+    </script>
+</body>
+
+</html>
